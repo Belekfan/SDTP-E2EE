@@ -221,3 +221,7 @@ This documentation guides you through using a custom end-to-end encrypted commun
 You can test securely encrypted messaging between clients and optionally containerize and deploy the system to a Cisco device using IOx.
 
 For production use, you should extend the system with robust authentication, logging, error handling, and advanced encryption mechanisms.
+
+---
+
+SDTP-E2EE --Developed integrated with Chatgpt-o1

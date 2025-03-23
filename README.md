@@ -186,22 +186,26 @@ Assuming Alice and Bob are both connected:
 
 ---
 
-# 8. Further Development
+---
+
+# 8. Further Development Ideas
+
+The following features can be added to improve security, scalability, and usability:
 
 1. **Cisco IOx Deployment**  
-   - Use Docker + IOx tools (`ioxclient`) to package your app and run it on IOx-enabled Cisco routers or switches.
+   - Docker support and IOx tools like `ioxclient` can be added to package and deploy the application on Cisco IOx-enabled routers or switches.
 
 2. **Group Messaging**  
-   - For multi-user group chats, implement shared group key management or per-recipient encryption.
+   - Group chat functionality can be added by implementing shared group key management or using per-recipient encryption for secure multi-user communication.
 
 3. **Message Signatures**  
-   - Add ECDSA signatures per message to confirm sender authenticity.
+   - ECDSA signatures can be added to each message to verify the authenticity of the sender and ensure message integrity.
 
 4. **Persistent Identity**  
-   - Save ECC private key to disk (e.g., encrypted JSON or secure keystore) for stable identity.
+   - Secure ECC private key storage (e.g., encrypted JSON or secure keystore) can be added to maintain a consistent identity across sessions.
 
 5. **UI Development**  
-   - Build a web frontend or GUI client (e.g., using Flask or PyQt) for better UX.
+   - A user interface can be added to improve the user experience, either as a web frontend using Flask or a desktop GUI using PyQt.
 
 ---
 
